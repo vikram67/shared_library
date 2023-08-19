@@ -1,9 +1,9 @@
- def call(Map params) {
+def call(Map params) {
     def projectName = params.ProjectName
     def projectVersion = params.ProjectVersion
+    def jenkinsAccount = params.JenkinsAccount
 
-    // Your function logic here
-    echo "Project Name: ${ProjectName}"
-    echo "Project Version: ${ProjectVersion}"
-    echo "Jenkins Account: ${BUILDTAG"
+    echo "Project Name: ${projectName}"
+    echo "Project Version: ${projectVersion}"
+    echo "Jenkins Account: ${JenkinsAccount}"
 }
