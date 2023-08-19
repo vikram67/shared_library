@@ -5,5 +5,5 @@ def call(Map params) {
 
     echo "Project Name: ${projectName}"
     echo "Project Version: ${projectVersion}"
-    echo "Jenkins Account: ${JenkinsAccount}"
+    echo "Jenkins Account: ${jenkinsAccount}"
 }
